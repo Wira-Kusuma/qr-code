@@ -49,3 +49,18 @@ body {
     text-align: center;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+.effect {
+    animation: forwards 0.7s ease-in-out effect;
+}
+
+@keyframes effect {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
